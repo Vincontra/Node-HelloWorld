@@ -28,8 +28,7 @@ jobs:
             cd ~/Node-HelloWorld &&
             git pull origin main &&
             pkill node || true &&
-            nohup node index.js > app.log 2>&1 &
-            exit
+            setsid nohup node index.js > app.log 2>&1 < /dev/null &
           '
 
 
