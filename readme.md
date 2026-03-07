@@ -362,7 +362,3 @@ Features implemented:
 
 ---
 
-# Author
-
-Vinay
-DevOps Deployment Project
